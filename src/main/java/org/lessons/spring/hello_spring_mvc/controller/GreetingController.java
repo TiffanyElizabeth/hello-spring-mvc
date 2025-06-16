@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 import java.time.LocalTime;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/hello")
 public class GreetingController {
     @GetMapping("/hello")
     public String greeting(Model model, @RequestParam(name = "name") String name) {
